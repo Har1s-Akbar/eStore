@@ -38,8 +38,8 @@ function Cart() {
     
   return (
     <section>
-        {cartItems.map((item)=>
-        <section className='grid grid-cols-2 my-5'>
+        {cartItems.map((item, index)=>
+        <section key={index} className='grid grid-cols-2 my-5'>
           <img className='h-32 mt-5 rounded-xl' src={urlFor(item.images[0])} alt={item.title} />
           <div className='mt-5'>
           <Typography.Title level={4}>{item.title}</Typography.Title>
