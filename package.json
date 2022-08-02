@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "@netlify/plugin-nextjs": "^4.14.0",
     "@sanity/client": "^3.3.2",
     "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.34.0",
