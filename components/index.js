@@ -1,0 +1,6 @@
+export {default as Nav} from './Nav'
+export {default as Header} from './Header'
+export {default as Delivery} from './Delivery'
+export {default as Products} from './Products'
+export {default as Footer} from './Footer'
+export {default as Cart} from './Cart'
