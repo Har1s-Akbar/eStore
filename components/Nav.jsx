@@ -23,14 +23,14 @@ function Nav() {
       <h1 className="sm:text-base lg:text-2xl font-medium sm:ml-3">
       <Link href="/">Spencer's Store</Link>
       </h1>
-      <MenuItem key='1' className='lg:mr-20 sm:mr-0 sm:ml-20'>
+      <MenuItem key="1" className='lg:mr-20 sm:mr-0 sm:ml-20'>
       <div className='flex items-end mb-1'>
         <Button onClick={showDrawer}><ShoppingCartOutlined className='mb-4' style={{fontSize : '20px'}}/></Button>
-      <Typography.Paragraph type='primary' className='m-1'>
+      <Typography.Paragraph type="primary" className='m-1'>
         {totalQuantities}
       </Typography.Paragraph>
       </div>
-      <Drawer title='Cart Items' placement='right' size='default'  onClose={onClose} visible={visible}>
+      <Drawer title="Cart Items" placement="right" size="default"  onClose={onClose} visible={visible}>
         <Cart/>
       </Drawer>
       </MenuItem>
