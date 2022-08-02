@@ -10,7 +10,7 @@ function success() {
     title="Successfully Purchased the Product"
     subTitle="Product will be delivered in 2-3 days. Happy Shopping"
     extra={[
-      <Link href='/'>
+      <Link key='1' href='/'>
         <Button type="secondary">
         Back To Home
       </Button>

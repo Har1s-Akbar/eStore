@@ -20,8 +20,8 @@ function Nav() {
 
   return (
     <Menu mode='horizontal' className='flex lg:justify-between sm:justify-center items-end content-center p-1'>
-      <h1 className='sm:text-base lg:text-2xl font-medium sm:ml-3'>
-      <Link href='/'>Spencer's Store</Link>
+      <h1 className="sm:text-base lg:text-2xl font-medium sm:ml-3">
+      <Link href="/">Spencer's Store</Link>
       </h1>
       <MenuItem key='1' className='lg:mr-20 sm:mr-0 sm:ml-20'>
       <div className='flex items-end mb-1'>
